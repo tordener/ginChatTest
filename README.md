@@ -45,21 +45,21 @@ We are simulating a production-grade environment to learn key principles of dist
 
 * [x] Initialize Vite + React + Tailwind frontend with working dev server
 * [x] Create minimal registration/chatroom UI using TypeScript + Tailwind
-* [ ] Build `podman-compose.yaml` to spin up Kafka + Zookeeper containers
-* [ ] Configure Gin backend server with basic REST API (register, ping)
+* [x] Build `podman-compose.yaml` to spin up Kafka + Zookeeper containers
+* [x] Configure Gin backend server with basic REST API (register, ping)
 * [ ] Set up Kafka topic for chat messages
 
 ### Phase 2: WebSocket & Messaging
 
-* [ ] Add WebSocket upgrade route to Gin backend
+* [x] Add WebSocket upgrade route to Gin backend
 * [ ] Integrate WebSocket server with Kafka producer/consumer
 * [ ] Broadcast messages to all connected users
 * [ ] Display messages in frontend chatroom in real-time
 
 ### Phase 3: Service Orchestration
 
-* [ ] Containerize frontend with Podman
-* [ ] Containerize Gin backend
+* [x] Containerize frontend with Podman
+* [x] Containerize Gin backend
 * [ ] Wire up services via Podman Compose (networking, ports)
 * [ ] Health checks and auto-restart policies
 
