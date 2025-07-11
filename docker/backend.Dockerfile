@@ -1,5 +1,5 @@
 # docker/backend.Dockerfile
-FROM golang:1.22-alpine
+FROM golang:1.24.4-alpine
 WORKDIR /app
 COPY . .
 RUN go mod tidy
